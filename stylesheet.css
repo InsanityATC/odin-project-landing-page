@@ -1,0 +1,99 @@
+body
+{
+    margin: 0;
+}
+
+h2
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+button
+{
+    background-color: #3882F6;
+    cursor: crosshair;
+}
+
+footer
+{
+    text-align: center;
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+}
+
+footer p
+{
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+    background-color: #1F2937;
+    padding: 10px 15px 10px 15px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.header img
+{
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.section1
+{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    padding: 0 15px 15px 15px;
+}
+
+.members 
+{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.members div
+{
+    max-width: 184px;
+    margin-bottom: 50px;
+}
+
+.members img
+{
+    border-radius: 25%;
+}
+
+.members p
+{
+    text-align: center;
+}
+
+.quote
+{
+    padding: 80px 70px 80px 70px;
+    margin-bottom: 70px;
+    font-style: italic;
+    background-color: lightgray;
+}
+
+.join.text h3, .join.text p
+{
+    margin: 0;
+    padding: 0;
+}
+
+.sign.up
+{
+    display: flex;
+    flex-direction: row;
+}
